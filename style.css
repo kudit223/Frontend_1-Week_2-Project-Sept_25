@@ -30,7 +30,7 @@ li a{
     align-items: center;
     justify-content: space-between;
 }
- .btn{
+.btn{
     background-color: #FCAF02;
     color: black;
     font-weight: bold;
@@ -42,7 +42,29 @@ li a{
 .btn:hover{
     background-color: white;
 }
- 
+.input-block{
+    display: block;
+    width: 99%; 
+}
+.input-style{
+    margin-bottom:25px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding:7px;
+    border: 1px solid #FCAF02;
+    background-color: black;
+    outline: none;
+}   
+.input-inline{
+    width: 47%;
+}
+.input-inline-space{
+    margin-right: 48px;
+}
+.btn-submit{
+    display: block;
+    margin: auto;
+}
 /*----------------------------------------------- id --------------------*/
 #logo{
     display: flex;
@@ -70,4 +92,7 @@ li a{
 #table-1 img{
     width: 400px;
     padding-right:100px ;
+}
+#contactus{
+    margin-bottom: 30px;
 }
