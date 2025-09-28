@@ -24,11 +24,13 @@ li a{
     background:#FCAF02;
     padding-right: 15px;
     padding-left: 15px;
+    position: sticky;
+    top:0;
 }
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 .btn{
     background-color: #FCAF02;
