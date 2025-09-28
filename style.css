@@ -37,6 +37,7 @@ li a{
     padding: 10px 55px;
     font-size: 18px;
     border-radius: 30px;
+    border: 1px solid #FCAF02;
     cursor: pointer;
 }
 .btn:hover{
